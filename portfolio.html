@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruturaj Sharbidre - Personal Webpage</title>
+    <title>Ruturaj</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>R</text></svg>">
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -42,6 +44,7 @@
             font-size: 2em;
             color: #333;
             margin-top: 0;
+            animation: fadeIn 2s;
         }
         p {
             line-height: 1.6;
@@ -170,9 +173,18 @@
             background-color: #444;
         }
         .dark-theme .tooltip {
-            background-color: #0071e3;
+            background-color: #949596;
         }
-        footer {
+        .dark-theme .container h2{
+            background-color: #444(39, 37, 37);
+            border-bottom: 1px solid #555;
+            color: #e0e0e0;
+        }
+        .dark-theme .interests li {
+            background: #555; /* Set background color for interests */
+            color: #f5f5f7 !important; /* Ensure interests list items text color is white */
+        }
+        footer { 
             text-align: center;
             padding: 2em 0;
             background-color: #f5f5f7;
@@ -193,7 +205,11 @@
     <div class="container">
         <section>
             <h2>About Me</h2>
-            <p>Hello! My name is Ruturaj Sharbidre. I am passionate about ethical hacking, web testing, and pentesting. I love exploring new vulnerabilities and ensuring systems are secure from potential threats.</p>
+            <p>Hello! My name is Ruturaj Sharbidre. I am passionate about ethical hacking, web testing, and pentesting. I love exploring new vulnerabilities and ensuring systems are secure from potential threats.
+                I am a passionate Computer Science student with a background in software testing and quality assurance. I have worked as a Software Tester at AthenasOwl, specializing in testing AI and ML platforms for media. Additionally, I have experience as a platform tester, focusing on AI and ML solutions. Currently, I hold the position of Senior Executive Quality Assurance at Mediaware.
+
+Beyond my testing roles, I have a strong background in teaching. I have taught at the Institute of Jetkings, where I also gained expertise in networking. This knowledge has been invaluable in my work as a pentester, allowing me to effectively test applications and websites for security vulnerabilities. In addition to my roles in quality assurance and testing, I am also a Security Researcher, dedicated to advancing security measures and protocols.
+            </p>
         </section>
         <section class="interests">
             <h2>Interests</h2>
@@ -205,7 +221,7 @@
         </section>
         <section class="dropdown">
             <button class="dropbtn">Skills</button>
-            <div class="tooltip">Click to see more</div>
+            <div class="tooltip">Hover Mouse to see details!</div>
             <div class="dropdown-content">
                 <ul>
                     <li>Penetration Testing</li>
@@ -218,21 +234,22 @@
         </section>
         <section class="dropdown">
             <button class="dropbtn">Education</button>
-            <div class="tooltip">Click to see more</div>
+            <div class="tooltip">Hover Mouse to see details!</div>
             <div class="dropdown-content">
                 <ul>
                     <li>Bachelor's Degree in Computer Science</li>
                     <li>Certified Ethical Hacker (CEH)</li>
+            
                 </ul>
             </div>
         </section>
         <section class="dropdown">
             <button class="dropbtn">Certificates</button>
-            <div class="tooltip">Click to see more</div>
+            <div class="tooltip">Hover Mouse to see details!</div>
             <div class="dropdown-content">
                 <ul>
                     <li>Certified Ethical Hacker (CEH)</li>
-                    <li>Certified Information Systems Security Professional (CISSP)</li>
+                    <li>Certified Software tester Self Learning!</li>
                 </ul>
             </div>
         </section>
@@ -241,6 +258,8 @@
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/ruturajsharbidre" target="_blank">LinkedIn</a>
                 <a href="https://github.com/RuturajS" target="_blank">GitHub</a>
+                <a href="https://Discord.com/Ruturaj04" target="_blank">Discord</a>
+                <a href="https://hackerone.com/RuturajS" target="_blank">Hackerone</a>
             </div>
         </section>
     </div>
