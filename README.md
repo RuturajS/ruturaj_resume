@@ -4,12 +4,12 @@ Welcome to my personal portfolio website! Check it out here: [Ruturaj's Portfoli
 
 ## ⭐ Star me on GitHub — it helps!
 
-[![GitHub stars](https://img.shields.io/github/stars/rajaprerak/portfolio.svg?style=social&label=Star)](https://ruturajs.github.io/ruturaj_resume/portfolio.html)
-[![GitHub license](https://img.shields.io/github/license/rajaprerak/portfolio.svg)](https://github.com/ruturajs/ruturaj_resume/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/ruturajs/portfolio.svg?style=social&label=Star)](https://ruturajs.github.io/ruturaj_resume/portfolio.html)
+[![GitHub license](https://img.shields.io/github/license/ruturajs/portfolio.svg)](https://github.com/ruturajs/ruturaj_resume/blob/main/LICENSE)
 
 ## Website Preview
 
-![Home Page](https://ruturajs.github.io/ruturaj_resume/files/home.png)
+![Home Page](https://ruturajs.github.io/ruturaj_resume/file/home.png)
 
 ## Maintenance
 
