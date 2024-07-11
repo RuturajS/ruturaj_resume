@@ -13,7 +13,7 @@ Welcome to my personal portfolio website! Check it out here: [Ruturaj's Portfoli
 
 ## Maintenance
 
-This website is maintained using [shields.io](https://github.io). Feel free to ask me anything!
+This website is maintained using [github.io](https://github.io). Feel free to ask me anything!
 
 ## License
 
